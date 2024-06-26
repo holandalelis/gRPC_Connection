@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "js8pvkEAm+A=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\pedro.lelis\\source\\repos\\grpc-csharp-class\\server\\server.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\pedro.lelis\\.nuget\\packages\\google.protobuf\\3.27.1\\google.protobuf.3.27.1.nupkg.sha512",
+    "C:\\Users\\pedro.lelis\\.nuget\\packages\\grpc\\2.46.6\\grpc.2.46.6.nupkg.sha512",
+    "C:\\Users\\pedro.lelis\\.nuget\\packages\\grpc.core\\2.46.6\\grpc.core.2.46.6.nupkg.sha512",
+    "C:\\Users\\pedro.lelis\\.nuget\\packages\\grpc.core.api\\2.46.6\\grpc.core.api.2.46.6.nupkg.sha512",
+    "C:\\Users\\pedro.lelis\\.nuget\\packages\\grpc.tools\\2.64.0\\grpc.tools.2.64.0.nupkg.sha512",
+    "C:\\Users\\pedro.lelis\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512"
+  ],
+  "logs": []
+}
