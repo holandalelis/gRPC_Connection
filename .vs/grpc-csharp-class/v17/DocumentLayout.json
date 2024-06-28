@@ -1,12 +1,88 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\pedro.lelis\\source\\repos\\grpc-csharp-class\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C1A7BEE7-566E-4FCD-AB6D-C10C72FA4DFD}|client\\client.csproj|c:\\users\\pedro.lelis\\source\\repos\\grpc-csharp-class\\client\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1A7BEE7-566E-4FCD-AB6D-C10C72FA4DFD}|client\\client.csproj|solutionrelative:client\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF23AB21-E3D2-4561-B07F-920F97833C57}|server\\server.csproj|c:\\users\\pedro.lelis\\source\\repos\\grpc-csharp-class\\server\\greetingserviceimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF23AB21-E3D2-4561-B07F-920F97833C57}|server\\server.csproj|solutionrelative:server\\greetingserviceimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3AFA3492-22CF-406C-9CF8-366B7B9DF185}|proto{3AFA3492-22CF-406C-9CF8-366B7B9DF185}|C:\\Users\\pedro.lelis\\source\\repos\\grpc-csharp-class\\greeting.proto||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{3AFA3492-22CF-406C-9CF8-366B7B9DF185}|proto{3AFA3492-22CF-406C-9CF8-366B7B9DF185}|solutionrelative:greeting.proto||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3AFA3492-22CF-406C-9CF8-366B7B9DF185}|proto{3AFA3492-22CF-406C-9CF8-366B7B9DF185}|C:\\Users\\pedro.lelis\\source\\repos\\grpc-csharp-class\\sumcalculator.proto||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{3AFA3492-22CF-406C-9CF8-366B7B9DF185}|proto{3AFA3492-22CF-406C-9CF8-366B7B9DF185}|solutionrelative:sumcalculator.proto||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "greeting.proto",
+              "DocumentMoniker": "C:\\Users\\pedro.lelis\\source\\repos\\grpc-csharp-class\\greeting.proto",
+              "RelativeDocumentMoniker": "greeting.proto",
+              "ToolTip": "C:\\Users\\pedro.lelis\\source\\repos\\grpc-csharp-class\\greeting.proto",
+              "RelativeToolTip": "greeting.proto",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAACsAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003853|",
+              "WhenOpened": "2024-06-28T13:59:04.915Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "sumcalculator.proto",
+              "DocumentMoniker": "C:\\Users\\pedro.lelis\\source\\repos\\grpc-csharp-class\\sumcalculator.proto",
+              "RelativeDocumentMoniker": "sumcalculator.proto",
+              "ToolTip": "C:\\Users\\pedro.lelis\\source\\repos\\grpc-csharp-class\\sumcalculator.proto",
+              "RelativeToolTip": "sumcalculator.proto",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003853|",
+              "WhenOpened": "2024-06-28T13:59:04.008Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\pedro.lelis\\source\\repos\\grpc-csharp-class\\client\\Program.cs",
+              "RelativeDocumentMoniker": "client\\Program.cs",
+              "ToolTip": "C:\\Users\\pedro.lelis\\source\\repos\\grpc-csharp-class\\client\\Program.cs",
+              "RelativeToolTip": "client\\Program.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAACAAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-28T13:47:33.975Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GreetingServiceImpl.cs",
+              "DocumentMoniker": "C:\\Users\\pedro.lelis\\source\\repos\\grpc-csharp-class\\server\\GreetingServiceImpl.cs",
+              "RelativeDocumentMoniker": "server\\GreetingServiceImpl.cs",
+              "ToolTip": "C:\\Users\\pedro.lelis\\source\\repos\\grpc-csharp-class\\server\\GreetingServiceImpl.cs",
+              "RelativeToolTip": "server\\GreetingServiceImpl.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-28T13:46:33.522Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

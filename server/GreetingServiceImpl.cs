@@ -22,5 +22,17 @@ namespace server
                 await responseStream.WriteAsync(new GreetManyTimesResponse() { Result = result });
             }
         }
+
+        public override async Task<LongGreetResponse> LongGreet(IAsyncStreamReader<LongGreetRequest> requestStream, ServerCallContext context)
+        {
+            string result = String.Empty;
+            while (await requestStream.MoveNext())
+            {
+                result += String.Format("Hello {0} {1} {2}", requestStream.Current.Greeting.FirstName, requestStream.Current.Greeting.LastName,
+                    Environment.NewLine);
+            }
+            return new LongGreetResponse() { Result = result };
+        }
+
     }
 }
