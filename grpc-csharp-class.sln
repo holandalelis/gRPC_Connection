@@ -6,11 +6,13 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "proto", "proto", "{3AFA3492-22CF-406C-9CF8-366B7B9DF185}"
 	ProjectSection(SolutionItems) = preProject
 		dummy.proto = dummy.proto
+		greeting.proto = greeting.proto
+		sumcalculator.proto = sumcalculator.proto
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "client", "client\client.csproj", "{C1A7BEE7-566E-4FCD-AB6D-C10C72FA4DFD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "client", "client\client.csproj", "{C1A7BEE7-566E-4FCD-AB6D-C10C72FA4DFD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "server", "server\server.csproj", "{DF23AB21-E3D2-4561-B07F-920F97833C57}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "server", "server\server.csproj", "{DF23AB21-E3D2-4561-B07F-920F97833C57}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

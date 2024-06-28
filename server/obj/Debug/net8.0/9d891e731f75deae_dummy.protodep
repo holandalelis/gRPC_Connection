@@ -1,2 +1,0 @@
-models/Dummy.cs \
-models/DummyGrpc.cs: ../dummy.proto

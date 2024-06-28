@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+package calculator;
+
+message SumCalculator{
+	int32 n1 = 1;
+	int32 n2 = 2;
+}
+
+message SumCalculatorRequest {
+	SumCalculator sumCalculator = 1;
+}
+
+message SumCalculatorResponse {
+	string result = 1;
+}
+
+service SumCalculatorService {
+	rpc Calculator(SumCalculatorRequest) returns (SumCalculatorResponse){
+
+	}
+}

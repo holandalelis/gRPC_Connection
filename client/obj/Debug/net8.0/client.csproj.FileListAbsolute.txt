@@ -22,3 +22,4 @@ C:\Users\pedro.lelis\source\repos\grpc-csharp-class\client\obj\Debug\net8.0\refi
 C:\Users\pedro.lelis\source\repos\grpc-csharp-class\client\obj\Debug\net8.0\client.pdb
 C:\Users\pedro.lelis\source\repos\grpc-csharp-class\client\obj\Debug\net8.0\client.genruntimeconfig.cache
 C:\Users\pedro.lelis\source\repos\grpc-csharp-class\client\obj\Debug\net8.0\ref\client.dll
+C:\Users\pedro.lelis\source\repos\grpc-csharp-class\client\obj\Debug\net8.0\client.sourcelink.json
