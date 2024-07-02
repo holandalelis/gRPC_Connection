@@ -34,5 +34,16 @@ namespace server
             return new LongGreetResponse() { Result = result };
         }
 
+        public override async Task<GreetEveryoneResponse> GreetEveryone(IAsyncStreamReader<GreetEveryoneRequest> requestStream, IServerStreamWriter<GreetEveryoneResponse> responseStream, ServerCallContext context)
+        {
+            while (await requestStream.MoveNext())
+            {
+                var result = String.Format("Hello {0} {1}", requestStream.Current.Greeting.FirstName, requestStream.Current.Greeting.LastName);
+                Console.WriteLine("Received:" + result);
+                await responseStream.WriteAsync(new GreetEveryoneResponse() { Result = result });
+                await Task.Delay(1000);
+            }
+            return new GreetEveryoneResponse();
+        }
     }
 }
